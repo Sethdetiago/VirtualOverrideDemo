@@ -19,7 +19,7 @@ namespace VirtualOverrideDemo
             IsHungry = true;
         }
 
-        public virtual void MakeSound()
+        public virtual void MakeSound()     //Making a method virtual allows it to be overwritten
         {
             Console.WriteLine("Grrrr");
 

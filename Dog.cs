@@ -16,7 +16,7 @@ namespace VirtualOverrideDemo
             IsHappy = true;
         }
 
-        public override void Eat()
+        public override void Eat()      //Overriding changes the behaviour of the parent classes method
         {
             //Eats the same way other animals do
             base.Eat();
@@ -28,7 +28,7 @@ namespace VirtualOverrideDemo
             Console.WriteLine("Woof Woof");
         }
 
-        public override void Play()
+        public override void Play() 
         {
             if (IsHappy)
             {
